@@ -17,7 +17,12 @@ app.use('/stocks',stock_router);
 app.get('/home',(req,res)=>{
     res.render('home');
 })
-
+app.get('/about',(req,res)=>{
+    res.render('about');
+});
+app.get('/contact',(req,res)=>{
+    res.render('contact');
+})
 
 app.listen(3000,()=>{
     console.log("server connected....")

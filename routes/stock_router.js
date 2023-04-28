@@ -1,6 +1,6 @@
 const express=require('express');
 const stock_router=express.Router();
-
+stock_router.use(express.static('stylesheet'))
 stock_router.get('/apple',(req,res)=>{
     res.render('apple');
 });

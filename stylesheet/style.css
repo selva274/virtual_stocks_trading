@@ -14,3 +14,32 @@ height: calc(100% - 73px);
 height: 100%;
 }
 }
+.stocks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stocks div{
+    margin: 20px;
+    
+}
+.navbar a{
+    margin-left: 20px;
+}
+.navbar .info a{
+    text-decoration: none;
+    align-items: center;
+}
+.home_heading{
+   
+    display: block;
+    justify-content: center;
+    text-align: center;
+    
+}
+.home_heading h1{
+    margin-top: 180px;
+    font-weight: 700;
+    font-size: 50px;
+   
+}
