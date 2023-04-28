@@ -1,0 +1,25 @@
+{
+  "name": "virtual_stocks",
+  "version": "1.0.0",
+  "description": "To learn stocks movements",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selva274/virtual_stocks_trading.git"
+  },
+  "author": "selvakumar_dharmalingam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/selva274/virtual_stocks_trading/issues"
+  },
+  "homepage": "https://github.com/selva274/virtual_stocks_trading#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
+}
