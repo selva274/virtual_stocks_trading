@@ -3,7 +3,7 @@ const login_router=require('./routes/login_router');
 const register_router=require('./routes/register_router');
 const stock_router=require('./routes/stock_router');
 const path=require('path');
-const isLoggedIn=require('./isLoggedIn');
+
 const passport = require('passport');
 var bodyParser = require('body-parser')
 
